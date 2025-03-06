@@ -8,7 +8,7 @@ export default function Home() {
         
             <div className={styles.card}>
               <div className={styles.esquerda}>
-                <h1>Welcome Back!</h1>
+                <h1>Welcome!</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
               </div>
               <div className={styles.direita}>
@@ -22,7 +22,8 @@ export default function Home() {
                 <br/>
 
                 <button>Sign In</button>
-                <button className={styles.signUp}>Sign Up</button>
+                <button className={styles.signUp}><a href="/signUp">Sign Up</a></button>
+                
 
                 <div className={styles.text}>
                   <p>By clicking on "Sign In" you agree to</p>
