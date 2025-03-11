@@ -50,7 +50,7 @@
   
   .esquerda {
     width: 25vw;
-    height: 30vh;
+    height: 45vh;
     z-index: auto;
     text-align: justify;
     display: flex;
@@ -67,7 +67,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
-    height: 60vh;
+    height: 50vh;
     width: 20vw;
   }
   

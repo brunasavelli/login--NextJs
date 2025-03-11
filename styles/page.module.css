@@ -50,7 +50,7 @@
 
 .esquerda {
   width: 25vw;
-  height: 30vh;
+  height: 45vh;
   z-index: auto;
   text-align: justify;
   display: flex;
@@ -89,8 +89,6 @@
 }
 
 .direita button:hover {
-  height: 31px;
-  width: 91%;
   cursor: pointer;
   filter: brightness(1.5);
 }

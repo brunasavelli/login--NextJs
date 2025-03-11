@@ -16,12 +16,10 @@ export default function SignUp() {
 
                         <legend>Username:</legend>
                         <input type="text" placeholder="" />
-                        <br />
                         <legend>Password:</legend>
                         <input type="password" placeholder="" />
-                        <br />
 
-                        <button>Enter</button>
+                        <button><a href="/profile" style={{color: 'white', textDecoration: 'none'}}>Enter</a></button>
 
 
                     </div>

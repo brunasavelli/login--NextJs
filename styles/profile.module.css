@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    grid-row-start: 2;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-image: url("../public/background.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.card {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: auto;
+}

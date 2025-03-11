@@ -16,19 +16,17 @@ export default function Home() {
 
                 <legend>Email address:</legend>
                 <input type="text" placeholder=""/>
-                <br/>
                 <legend>Password:</legend>
                 <input type="password" placeholder=""/>
-                <br/>
 
                 <button>Sign In</button>
-                <button className={styles.signUp}><a href="/signUp">Sign Up</a></button>
+                <button className={styles.signUp}><a href="/signUp" style={{color:'white', textDecoration: 'none'}}>Sign Up</a></button>
                 
 
-                <div className={styles.text}>
+                {/* <div className={styles.text}>
                   <p>By clicking on "Sign In" you agree to</p>
                   <p><span>Terms of Service</span> | <span>Privacy Policy</span></p>
-                </div>
+                </div> */}
               </div>
             </div>
       </main>
