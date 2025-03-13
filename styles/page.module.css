@@ -48,36 +48,13 @@
   z-index: auto;
 }
 
-.esquerda {
-  width: 25vw;
-  height: 45vh;
-  z-index: auto;
-  text-align: justify;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-
-.esquerda h1, .direita h1 {
-  font-size: 50px;
-}
-
 .direita {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.5rem;
-  height: 60vh;
+  height: 45vh;
   width: 20vw;
-}
-
-.direita input {
-  width: 90%;
-  height: 30px;
-  border: 2px solid rgb(128, 128, 128);
-  border-radius: 5px;
-  padding: 0 0 0 0.3rem;
 }
 
 .direita button {
@@ -85,52 +62,10 @@
   height: 30px;
   border: none;
   border-radius: 5px;
-  background-color: rgb(8, 12, 68);
-  color: white;
-}
-
-.direita button:hover {
-  cursor: pointer;
-  filter: brightness(1.5);
-}
-
-.direita legend {
-  font-size: 14px;
-  text-align: left;
-}
-
-.direita .text {
-  font-size: 12px;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.direita span {
-  text-decoration: underline;
 }
 
 .direita .signUp {
   background-color: rgba(8, 12, 68, 0.445);
   border-color: rgb(255, 255, 255);
   border-style:groove;
-}
-
-.esquerda .signInIcons {
-  text-align: center;
-  color: thistle;
-}
-
-.esquerda .icons {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.icons img:hover {
-  cursor: pointer;
 }

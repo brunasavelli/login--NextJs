@@ -1,0 +1,32 @@
+.esquerda {
+    width: 25vw;
+    height: 45vh;
+    z-index: auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.esquerda h1,
+.direita h1 {
+    font-size: 50px;
+}
+
+.esquerda .signInIcons {
+    text-align: center;
+    color: thistle;
+}
+
+.esquerda .icons {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icons img:hover {
+    cursor: pointer;
+}

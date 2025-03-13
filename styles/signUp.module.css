@@ -38,7 +38,7 @@
   
   .card {
     width: 80vw;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -67,7 +67,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
-    height: 50vh;
+    height: 40vh;
     width: 20vw;
   }
   
@@ -77,38 +77,6 @@
     border: 2px solid rgb(128, 128, 128);
     border-radius: 5px;
     padding: 0 0 0 0.3rem;
-  }
-  
-  .direita button {
-    width: 90%;
-    height: 30px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(8, 12, 68);
-    color: white;
-  }
-  
-  .direita button:hover {
-    cursor: pointer;
-    filter: brightness(1.5);
-  }
-  
-  .direita legend {
-    font-size: 14px;
-    text-align: left;
-  }
-  
-  .direita .text {
-    font-size: 12px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .direita span {
-    text-decoration: underline;
   }
   
   .direita .signUp {

@@ -1,0 +1,9 @@
+
+.direita button {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(8, 12, 68);
+    color: white;
+}

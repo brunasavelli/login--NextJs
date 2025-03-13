@@ -1,0 +1,35 @@
+.direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 20vh;
+    width: 20vw;
+}
+.direita input {
+    width: 90%;
+    height: 30px;
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    padding: 0 0 0 0.3rem;
+    border: none;
+}
+
+.direita button {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(8, 12, 68);
+    color: white;
+}
+
+.direita button:hover {
+    cursor: pointer;
+    filter: brightness(1.5);
+}
+
+.direita legend {
+    font-size: 14px;
+    text-align: left;
+}

@@ -1,5 +1,5 @@
 import link from "next/link";
-import styles from "../../styles/profile.module.css";
+import styles from "../../styles/Profile.module.css";
 
 export default function Profile() {
     return (
@@ -10,10 +10,13 @@ export default function Profile() {
                     <div className={styles.profile}>
                         <div className={styles.esquerda}>
                             <div className={styles.fotoPerfil}>
-                                <h4>Avatar Picture</h4>
+                                <h4>Bruna Savelli</h4>
                                 <img src="/perfil.png" alt="" />
                             </div>
                             <div className={styles.infoPerfil}>
+                                <div className={styles.bio}>
+                                    <h5>Bio:</h5>
+                                </div>
                                 <div className={styles.accounts}>
                                     <img src="/facebook-icon.png" alt=""style={{ width: '24px', height: '24px' }} />
                                     <input type="text" placeholder="Add Facebook" />
