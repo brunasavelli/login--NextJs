@@ -1,7 +1,8 @@
 import Image from "next/image";
-import styles from "../../styles/Page.module.css";
+import styles from "../../styles/page.module.css";
 import Text from "../components/Text";
 import Input from "../components/Input";
+import Password from "../components/Password";
 import Button from "../components/Button";
 
 export default function Home() {
@@ -13,8 +14,8 @@ export default function Home() {
               <Text title="Welcome!" />
               <div className={styles.direita}>
 
-                <Input title="Sing In" legend="Username:"/>
-                <Input legend="Email address:"/>
+                <Input title="Sign In" legend="Username:" />
+                <Password legend="Password:"/>
                 
                 <Button goTo="Sign In" />
 

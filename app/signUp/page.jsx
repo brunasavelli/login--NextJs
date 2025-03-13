@@ -3,6 +3,8 @@ import styles from "../../styles/SignUp.module.css";
 import Text from "../components/Text";
 import Input from "../components/Input";
 import Button from "../components/Button";
+import Password from "../components/Password";
+import Verification from "../verification";
 
 export default function SignUp() {
     return (
@@ -14,8 +16,10 @@ export default function SignUp() {
                     <div className={styles.direita}>
                         
                         <Input title="Sign Up" legend="Username:" />
-                        <Input legend="Password:" />
-                        <Input legend="Confirm Password:" />
+                        <Verification />
+                        
+                        {/* <Password legend="Password:"/>
+                        <Password legend="Confirm Password:"/> */}
                         <Button goTo="Enter" />
 
 
