@@ -16,11 +16,69 @@
 
 .card {
     width: 80vw;
-    height: 80vh;
+    height: 90vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: auto;
+}
+
+.card .profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda {
+    width: 20vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.esquerda .fotoPerfil {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fotoPerfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.esquerda .infoPerfil {
+    width: 100%;
+    height: 50%;
+}
+
+.infoPerfil .accounts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.direita {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita .moreInfos {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(255, 245, 238, 0.644);
+    border-radius: 10px;
 }
