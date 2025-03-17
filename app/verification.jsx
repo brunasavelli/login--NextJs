@@ -21,7 +21,7 @@ export default function Verification() {
             />
 
             <input type="password" 
-            placeholder="Enter password"
+            placeholder="Enter password again"
             value={input2}
             onChange={(e) => setInput2(e.target.value)}
             />
