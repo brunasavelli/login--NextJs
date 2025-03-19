@@ -1,0 +1,97 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  grid-row-start: 2;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  background-image: url("../../public/background.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+.main ol {
+  font-family: var(--font-geist-mono);
+  padding-left: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  list-style-position: inside;
+}
+
+.main li:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+
+.main code {
+  font-family: inherit;
+  background: var(--gray-alpha-100);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.card {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: auto;
+}
+
+.esquerda {
+  width: 25vw;
+  height: 45vh;
+  z-index: auto;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+
+.esquerda h1,
+.direita h1 {
+  font-size: 50px;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 50vh;
+  width: 20vw;
+}
+
+.direita input {
+  width: 90%;
+  height: 30px;
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 5px;
+  padding: 0 0 0 0.3rem;
+}
+
+.direita button {
+  width: 90%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.direita .buttonEnter {
+  width: 92%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(8, 12, 68);
+  color: white;
+  cursor: pointer;
+}

@@ -1,8 +1,30 @@
 .verification input {
     width: 90%;
     height: 30px;
-    border: 2px solid rgb(128, 128, 128);
     border-radius: 5px;
     padding: 0 0 0 0.3rem;
     border: none;
+}
+
+.verification {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 20vh;
+    width: 20vw;
+}
+
+.verification button {
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(8, 12, 68);
+    color: white;
+}
+
+.verification button:hover {
+    cursor: pointer;
+    filter: brightness(1.5);
 }

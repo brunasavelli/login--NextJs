@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import styles from "../styles/Verification.module.css"
+import styles from "../styles/Verification.module.css";
 
 export default function Verification() {
     const [input1, setInput1] = useState("");
@@ -13,7 +13,7 @@ export default function Verification() {
     };
 
     return (
-        <div className={styles.Verification}>
+        <div className={styles.verification}>
             <input type="password" 
             placeholder="Enter password"
             value={input1}

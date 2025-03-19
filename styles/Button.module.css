@@ -7,3 +7,8 @@
     background-color: rgb(8, 12, 68);
     color: white;
 }
+
+.direita button:hover {
+    cursor: pointer;
+    filter: brightness(1.5);
+}

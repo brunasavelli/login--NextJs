@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../../styles/page.module.css";
+import styles from "./login.module.css";
 import Text from "../components/Text";
 import Input from "../components/Input";
 import Password from "../components/Password";
@@ -14,12 +14,11 @@ export default function Home() {
               <Text title="Welcome!" />
               <div className={styles.direita}>
 
-                <Input title="Sign In" legend="Username:" />
-                <Password legend="Password:"/>
-                
-                <Button goTo="Sign In" />
+                <Input title="Sign In" legend="Username:" placeholder="Ex: brunasavelli123" />
+                <Password legend="Password:" placeholder="Insert your password" />
 
-                <button className={styles.signUp}><a href="/signUp" style={{color:'white', textDecoration: 'none'}}>Sign Up</a></button>
+                <Button goTo="Sign In" link="/login" />
+                <Button goTo="Sign Up" link="/signUp" />
 
               </div>
             </div>

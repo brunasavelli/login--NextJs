@@ -1,5 +1,5 @@
 import link from "next/link";
-import styles from "../../styles/SignUp.module.css";
+import styles from "./signUp.module.css";
 import Text from "../components/Text";
 import Input from "../components/Input";
 import Button from "../components/Button";
@@ -15,13 +15,10 @@ export default function SignUp() {
                     <Text title="Welcome Back!" />
                     <div className={styles.direita}>
                         
-                        <Input title="Sign Up" legend="Username:" />
+                        <Input title="Sign Up" legend="Username:" placeholder="Ex: brunasavelli123" />
                         <Verification />
-                        
-                        {/* <Password legend="Password:"/>
-                        <Password legend="Confirm Password:"/> */}
-                        <Button goTo="Enter" />
 
+                        <Button goTo="Enter" link="/profile" />
 
                     </div>
                 </div>
