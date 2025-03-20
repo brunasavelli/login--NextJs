@@ -6,7 +6,7 @@ import styles from "../styles/Verification.module.css";
 export default function Verification() {
     const [input1, setInput1] = useState("");
     const [input2, setInput2] = useState("");
-    const [match, setMatch] = useState("");
+    const [match, setMatch] = useState(null);
 
     const handleCheck = () => {
         setMatch(input1 === input2 && input1 !== "");
@@ -14,12 +14,14 @@ export default function Verification() {
 
     return (
         <div className={styles.verification}>
+            <legend>Password:</legend>
             <input type="password" 
             placeholder="Enter password"
             value={input1}
             onChange={(e) => setInput1(e.target.value)}
             />
 
+            <legend>Confirm Password:</legend>
             <input type="password" 
             placeholder="Enter password again"
             value={input2}

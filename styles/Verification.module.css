@@ -11,8 +11,12 @@
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
-    height: 20vh;
+    height: 30vh;
     width: 20vw;
+}
+
+.verification legend {
+    font-size: 14px;
 }
 
 .verification button {
