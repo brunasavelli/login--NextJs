@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import styles from "../styles/root.module.css";
 
 export default function Home() {
     const router = useRouter();
@@ -11,6 +12,9 @@ export default function Home() {
     }, [router]);
 
     return (
-        <p>Redirecting...</p>
+        <div className={styles.container}>
+            <div className={styles.spinner}></div>
+            <p>Redirecting...</p>
+        </div>
     );
 }

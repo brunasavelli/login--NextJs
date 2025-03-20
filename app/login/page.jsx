@@ -5,7 +5,7 @@ import Input from "../components/Input";
 import Password from "../components/Password";
 import Button from "../components/Button";
 
-export default function Home() {
+export default function Login() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
