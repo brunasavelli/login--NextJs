@@ -8,4 +8,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
+}
+
+.card p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px;
 }

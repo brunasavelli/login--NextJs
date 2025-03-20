@@ -32,3 +32,7 @@
     cursor: pointer;
     filter: brightness(1.5);
 }
+
+.verification p {
+    font-size: 14px;
+}
