@@ -53,16 +53,21 @@
   flex-direction: column;
   justify-content: center;
   gap: 0.5rem;
-  height: 40vh;
+  height: 45vh;
   width: 20vw;
 }
 
-.direita .buttonSignUp {
-  width: 92%;
-  height: 50px;
+.direita button {
+  width: 100%;
+  height: 35px;
   border: none;
   border-radius: 5px;
   background-color: rgb(8, 12, 68);
   color: white;
-  cursor: pointer;
 }
+
+.direita button:hover {
+  cursor: pointer;
+  filter: brightness(1.5);
+}
+

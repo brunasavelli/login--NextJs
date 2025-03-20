@@ -95,3 +95,27 @@
   color: white;
   cursor: pointer;
 }
+
+.direita button {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(8, 12, 68);
+  color: white;
+}
+
+.direita button:hover {
+  cursor: pointer;
+  filter: brightness(1.5);
+}
+
+.backToLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backToLogin a {
+  font-size: 13px;
+}
