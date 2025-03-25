@@ -70,3 +70,18 @@
   cursor: pointer;
   filter: brightness(1.5);
 }
+
+@media screen and (max-width: 1440px) {
+  .main {
+    width: 74vw;
+    height: 74vh;
+  }
+  .card {
+    width: 55vw;
+    height: 50vh;
+  }
+  .direita {
+    height: 60%;
+    width: 37.5%;
+  }
+}
