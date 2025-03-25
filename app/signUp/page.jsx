@@ -25,7 +25,7 @@ export default function SignUp() {
                         <button onClick={() => router.push("/profile")}>Enter</button>
 
                         <div className={styles.backToLogin}>
-                            <a href="/login">Already have an account? Sign In</a>
+                            <a href="/login" style={{ color: 'white' }}>Already have an account? Sign In</a>
                         </div>
                     </div>
                 </div>
