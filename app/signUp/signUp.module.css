@@ -46,13 +46,6 @@
   z-index: auto;
 }
 
-@media screen and (max-width: 1440px) {
-  .signUp .card {
-    width: 60vw;
-    height: 70vh;
-  }
-}
-
 .esquerda {
   width: 25vw;
   height: 45vh;
@@ -126,11 +119,11 @@
 
 @media screen and (max-width: 1440px) {
   .card {
-    width: 60vw;
-    height: 65vh;
+    width: 65vw;
+    height: 75vh;
   }
   .direita {
     width: 20.5vw;
-    height: 55vh;
+    height: 61vh;
   }
 }

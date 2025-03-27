@@ -1,4 +1,3 @@
-import link from "next/link";
 import styles from "./profile.module.css";
 import Card from "../components/Card";
 
