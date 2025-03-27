@@ -26,7 +26,8 @@ export default function Profile() {
                 <div className={styles.backgroundBottom}>
                     <div className={styles.cards}>
                         <div className={styles.row}>
-                            <Card title={"Meus Conhecimentos"} image={<div>
+                            <Card title={"Meus Conhecimentos"} 
+                            image={<div>
                                 <img src="/next.js.png" alt="" width={35} height={35} />
                                 <img src="/react.js.png" alt="" width={35} height={35} />
                                 <img src="/javascript.png" alt="" width={35} height={35} />
@@ -43,7 +44,8 @@ export default function Profile() {
                                 <img src="/sql.png" alt="" width={35} height={35} />
                                 <img src="/git.png" alt="" width={35} height={35} />
                                 <img src="/miro.png" alt="" width={35} height={35} />
-                            </div>}/>
+                            </div>}
+                            />
                             <Card title="Sobre mim" text="Meu nome é Bruna Savelli, tenho 17 anos." />
                             <Card title="Meus Gostos" text="Tenho interesse em lutas e em moda. Adoro me encontrar com meu amigos para nos divertirmos" />
                         </div>
