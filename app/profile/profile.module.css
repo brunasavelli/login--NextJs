@@ -81,3 +81,12 @@
     gap: 1rem;
 }
 
+@media screen and (max-width: 1240px) {
+    .imageProfile {
+        width: 90%;
+        justify-content: left;
+    }
+    .main {
+        align-items: center;
+    }
+}

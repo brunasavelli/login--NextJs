@@ -16,3 +16,18 @@
     text-align: justify;
     padding: 5px;
 }
+
+@media screen and (max-width: 1240px) {
+    .card {
+        width: 300px;
+        height: 150px;
+        gap: 0;
+    }
+    .card p {
+        padding: 10px;
+    }
+    .card h3 {
+        font-size: 20px;
+        padding: 5px;
+    }
+}
