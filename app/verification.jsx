@@ -10,10 +10,6 @@ export default function Verification() {
     const [match, setMatch] = useState(null);
     const [error, setError] = useState(null);
 
-    // const handleCheck = () => {
-    //     setMatch(input1 === input2 && input1 !== "");
-    // };
-
     const handleCheck = () => {
         if (input1 !== input2) {
             setMatch(false);

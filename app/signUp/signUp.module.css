@@ -37,7 +37,7 @@
 }
 
 .card {
-  width: 80vw;
+  width: 60vw;
   height: 80vh;
   display: flex;
   flex-direction: row;
@@ -67,7 +67,6 @@
   flex-direction: column;
   justify-content: center;
   gap: 0.5rem;
-  height: 70vh;
   width: 20vw;
 }
 
@@ -121,9 +120,12 @@
 }
 
 @media screen and (max-width: 1440px) {
-  .main {
-      width: 74vw;
-      height: 74vh;
+  .card {
+    width: 60vw;
+    height: 65vh;
   }
-
+  .direita {
+    width: 20.5vw;
+    height: 55vh;
+  }
 }

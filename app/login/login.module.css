@@ -37,7 +37,7 @@
 }
 
 .card {
-  width: 80vw;
+  width: 60vw;
   height: 70vh;
   display: flex;
   flex-direction: row;
@@ -71,17 +71,12 @@
   filter: brightness(1.5);
 }
 
-@media screen and (max-width: 1440px) {
-  .main {
-    width: 74vw;
-    height: 74vh;
-  }
+/* @media screen and (max-width: 1440px) {
   .card {
-    width: 55vw;
+    width: 60vw;
     height: 50vh;
   }
   .direita {
-    height: 60%;
-    width: 37.5%;
+    height: 35vh;
   }
-}
+} */

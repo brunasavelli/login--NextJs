@@ -35,7 +35,16 @@ export default function Profile() {
                                 <img src="/css.png" alt="" width={35} height={35} />
                                 <img src="/postgres.png" alt="" width={35} height={35} />
                                 <img src="/node.js.png" alt="" width={35} height={35} />
-                            </div>} />
+                            </div>} 
+                            image2={<div>
+                                <img src="/vscode.png" alt="" width={35} height={35} />
+                                <img src="/figma.png" alt="" width={35} height={35} />
+                                <img src="/github.png" alt="" width={35} height={35} />
+                                <img src="/postman.png" alt="" width={35} height={35} />
+                                <img src="/sql.png" alt="" width={35} height={35} />
+                                <img src="/git.png" alt="" width={35} height={35} />
+                                <img src="/miro.png" alt="" width={35} height={35} />
+                            </div>}/>
                             <Card title="Sobre mim" text="Meu nome é Bruna Savelli, tenho 17 anos." />
                             <Card title="Meus Gostos" text="Tenho interesse em lutas e em moda. Adoro me encontrar com meu amigos para nos divertirmos" />
                         </div>
